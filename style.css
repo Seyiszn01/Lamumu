@@ -1,0 +1,136 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url(project.jpg);
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    color: #f3f7f7;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    
+  }
+  
+  .glow {
+    font-size: 3rem;
+    color: rgb(236, 244, 244);
+    text-shadow: 0 0 5px #0ff, 0 0 20px #0ff;
+  }
+  
+  .subtitle {
+    margin: 1rem auto;
+    max-width: 600px;
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: #00f7ff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Sections */
+  section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* NFT Gallery */
+  .grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .nft-card {
+    border: 2px solid #00f7ff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .nft-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #0ff;
+  }
+  
+  /* Roadmap */
+  .roadmap ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .roadmap li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #333;
+    color: rgb(1, 0, 0);
+  }
+  
+  /* Team */
+  .team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    border: 10px solid #00f7ff;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background: #0a0a0a;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .socials a {
+    margin: 0 1rem;
+  }
+  .nft-card {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #00f7ff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
